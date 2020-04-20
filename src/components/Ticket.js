@@ -11,6 +11,14 @@ function Ticket(props){
   );
 }
 
+function Day(props) {
+  return (
+    <Segment>
+      
+    </Segment>
+  )
+}
+
 Ticket.propTypes = {
   names: PropTypes.string,
   location: PropTypes.string,

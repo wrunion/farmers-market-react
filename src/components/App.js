@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './Header';
-import TicketControl from './TicketControl';
+import WeeklyNav from './WeeklyNav';
 
 function App(){
   return (
     <React.Fragment>
       <div class="ui container" id="content-all">
         <Header />
-        <TicketControl />
+        <WeeklyNav />
       </div>
     </React.Fragment>
   );
