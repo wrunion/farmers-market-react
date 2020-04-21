@@ -5,8 +5,12 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* Ticket styles */
+/* SiteTitle */
+/* #site-title {
+  font-family: 'Clicker Script', cursive;
+} */
 
+/* Ticket styles */
 .ticket-header {
   color: darkblue;
 }
