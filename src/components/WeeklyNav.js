@@ -10,11 +10,19 @@ class WeeklyNav extends Component {
     const { activeItem } = this.state;
   
   return (
-    <Menu>
-      <Menu.Item header>Avery Organics</Menu.Item>
+    <Menu fluid widths={4}>
+      <Menu.Item header>Home</Menu.Item>
       <Menu.Item
         name='about us'
         active={activeItem === 'aboutUs'}
+        onClick={this.handleItemClick} />
+        <Menu.Item
+        name='weekly schedule'
+        active={activeItem === 'weeklySchedule'}
+        onClick={this.handleItemClick} />
+        <Menu.Item
+        name='monthly schedule'
+        active={activeItem === 'monthlySchedule'}
         onClick={this.handleItemClick} />
     </Menu>
   );
