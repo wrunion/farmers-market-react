@@ -1,14 +1,16 @@
 import React from 'react';
-import Header from './Header';
+import SiteTitle from './SiteTitle';
+import Logo from './Logo';
+// import VerticalMenu from './VerticalNav';
+// import SegmentHome from './SegmentHome';
 import WeeklyNav from './WeeklyNav';
 
 function App(){
   return (
     <React.Fragment>
-      <div class="ui container" id="content-all">
-        <Header />
+        <Logo />
+        <SiteTitle />
         <WeeklyNav />
-      </div>
     </React.Fragment>
   );
 }
