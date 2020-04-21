@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 
-class WeeklyNav extends Component {
+class TopNav extends Component {
   state = {};
 
   handleItemClick = (e, { name }) => this.setState({activeItem: name});
@@ -29,4 +29,4 @@ class WeeklyNav extends Component {
   }
 }
 
-export default WeeklyNav;
+export default TopNav;
