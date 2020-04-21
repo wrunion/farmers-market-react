@@ -5,16 +5,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* SiteTitle */
-/* #site-title {
-  font-family: 'Clicker Script', cursive;
-} */
-
-/* MarketList styles */
+/* MarketList */
 #marketlist-title {
   text-align: center;
 }
-
 #marketlist-content {
   margin-right: 5em;
   margin-left: 5em;
