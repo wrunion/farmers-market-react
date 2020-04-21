@@ -1,5 +1,5 @@
 import React from 'react';
-import Day from './Day';./Day
+import Day from './Day';
 import { Segment } from 'semantic-ui-react';
 
 const marketSchedule = [  
@@ -44,12 +44,17 @@ const marketSchedule = [
 function MarketList() {
   return (
     <Segment>
-      {marketSchedule.map((day, index) => 
+      {/* {marketSchedule.map((day, index) => 
         <DisplayDays names = {ticket.names}
           location = {ticket.location}
           issue = {ticket.issue}
           key = {index} />
-      )}
+      )} */}
+      <Day 
+           day="Saturday"
+           location="Beaverton Farmer's Market"
+           hours="10:00am - 1:30pm"
+           booth="9G" />
     </Segment>
   );
 }
