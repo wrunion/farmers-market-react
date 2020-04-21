@@ -17,7 +17,7 @@ const marketSchedule = [
   },
   {  
      day: "Tuesday",
-     location: "Hillsboro",
+     location: "Hillsboro Artesan Market",
      hours: "5:00pm - 8:30pm",
      booth: "1F"
   },
@@ -35,7 +35,7 @@ const marketSchedule = [
   },
   {  
      day: "Saturday",
-     location: "Beaverton",
+     location: "Beaverton Farmer's Market",
      hours: "10:00am - 1:30pm",
      booth: "9G"
   }
@@ -44,17 +44,12 @@ const marketSchedule = [
 function MarketList() {
   return (
     <Segment>
-      {/* {marketSchedule.map((day, index) => 
-        <DisplayDays names = {ticket.names}
-          location = {ticket.location}
-          issue = {ticket.issue}
-          key = {index} />
-      )} */}
-      <Day 
-           day="Saturday"
-           location="Beaverton Farmer's Market"
-           hours="10:00am - 1:30pm"
-           booth="9G" />
+      {marketSchedule.map((day, index) => 
+      <Day day = {day.day}
+        location = {day.location}
+        hours = {day.hours}
+        booth = {day.booth} />
+      )}
     </Segment>
   );
 }
