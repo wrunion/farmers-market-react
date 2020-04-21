@@ -10,7 +10,12 @@
   font-family: 'Clicker Script', cursive;
 } */
 
-/* Ticket styles */
-.ticket-header {
-  color: darkblue;
+/* MarketList styles */
+#marketlist-title {
+  text-align: center;
+}
+
+#marketlist-content {
+  margin-right: 5em;
+  margin-left: 5em;
 }

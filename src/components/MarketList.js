@@ -44,12 +44,15 @@ const marketSchedule = [
 function MarketList() {
   return (
     <Segment>
-      {marketSchedule.map((day, index) => 
-      <Day day = {day.day}
-        location = {day.location}
-        hours = {day.hours}
-        booth = {day.booth} />
-      )}
+      <div id="marketlist-content">
+        <h2 id="marketlist-title">Come find our fresh produce every day of the week!</h2>
+        {marketSchedule.map((day, index) => 
+        <Day day = {day.day}
+          location = {day.location}
+          hours = {day.hours}
+          booth = {day.booth} />
+        )}
+      </div>
     </Segment>
   );
 }
