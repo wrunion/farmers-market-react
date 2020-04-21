@@ -1,9 +1,9 @@
-## Help Queue App
+## Avery Organics Marketlist App
 
 #### Winter A. Runion, 4.19.2020
 
 ### Description
-_An application for programming students to enter their information and receive help from an instructor._
+_An exercise in passing props in React. The app displays the dates and locations of local farmers market, to advertise for a local organic farm._
 
 ### Technologies Used
 * React
