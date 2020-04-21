@@ -1,3 +1,7 @@
+import React from 'react';
+import Day from './Day';./Day
+import { Segment } from 'semantic-ui-react';
+
 const marketSchedule = [  
   {  
      day: "Sunday",
@@ -36,3 +40,18 @@ const marketSchedule = [
      booth: "9G"
   }
  ];
+
+function MarketList() {
+  return (
+    <Segment>
+      {marketSchedule.map((day, index) => 
+        <DisplayDays names = {ticket.names}
+          location = {ticket.location}
+          issue = {ticket.issue}
+          key = {index} />
+      )}
+    </Segment>
+  );
+}
+
+export default MarketList;

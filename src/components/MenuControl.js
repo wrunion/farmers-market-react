@@ -1,9 +1,9 @@
 import React from 'react';
 import NewTicketForm from './NewTicketForm';
-import TicketList from './TicketList';
+// import MarketList from './MarketList';
 import { Button } from 'semantic-ui-react';
 
-class TicketControl extends React.Component {
+class MenuControl extends React.Component {
   
   constructor(props) {
     super(props);
@@ -39,4 +39,4 @@ class TicketControl extends React.Component {
 
 }
 
-export default TicketControl;
+export default MenuControl;

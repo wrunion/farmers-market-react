@@ -1,7 +1,7 @@
 import React from 'react';
-import SiteTitle from './SiteTitle';
-import Logo from './Logo';
-import TopNav from './TopNav';
+import SiteTitle from './UI/SiteTitle';
+import Logo from './UI/Logo';
+import TopNav from './UI/TopNav';
 
 function App(){
   return (
