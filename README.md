@@ -5,6 +5,9 @@
 ### Description
 _An exercise in passing props in React. The app displays the dates and locations of local farmers market, to advertise for a local organic farm._
 
+### Preview
+<img src="demo.png" width="650px" />
+
 ### Technologies Used
 * React
 * Webpack
