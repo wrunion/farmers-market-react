@@ -2,7 +2,7 @@
   "name": "help-queue-state",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wrunion.github.io/farmers-market-react",
+  "homepage": "http://wrunion.github.io/farmers-market-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
