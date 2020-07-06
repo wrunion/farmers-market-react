@@ -3,15 +3,16 @@ import SiteTitle from './UI/SiteTitle';
 import Logo from './UI/Logo';
 import TopNav from './UI/TopNav';
 import MarketList from './MarketList';
+import './../App.css';
 
 function App(){
   return (
-    <React.Fragment>
+    <div className="App">
         <Logo />
         <SiteTitle />
         <TopNav />
         <MarketList />
-    </React.Fragment>
+    </div>
   );
 }
 
