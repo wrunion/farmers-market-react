@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/farmers-market-react/static/css/main.82fd5c24.chunk.css",
+    "main.js": "/farmers-market-react/static/js/main.fea528f8.chunk.js",
+    "main.js.map": "/farmers-market-react/static/js/main.fea528f8.chunk.js.map",
+    "runtime-main.js": "/farmers-market-react/static/js/runtime-main.57aa83ed.js",
+    "runtime-main.js.map": "/farmers-market-react/static/js/runtime-main.57aa83ed.js.map",
+    "static/css/2.87ed142f.chunk.css": "/farmers-market-react/static/css/2.87ed142f.chunk.css",
+    "static/js/2.535f7d06.chunk.js": "/farmers-market-react/static/js/2.535f7d06.chunk.js",
+    "static/js/2.535f7d06.chunk.js.map": "/farmers-market-react/static/js/2.535f7d06.chunk.js.map",
+    "index.html": "/farmers-market-react/index.html",
+    "precache-manifest.15f3c1e6fe2554e132be1e43715a46b8.js": "/farmers-market-react/precache-manifest.15f3c1e6fe2554e132be1e43715a46b8.js",
+    "service-worker.js": "/farmers-market-react/service-worker.js",
+    "static/css/2.87ed142f.chunk.css.map": "/farmers-market-react/static/css/2.87ed142f.chunk.css.map",
+    "static/css/main.82fd5c24.chunk.css.map": "/farmers-market-react/static/css/main.82fd5c24.chunk.css.map",
+    "static/js/2.535f7d06.chunk.js.LICENSE.txt": "/farmers-market-react/static/js/2.535f7d06.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/farmers-market-react/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57aa83ed.js",
+    "static/css/2.87ed142f.chunk.css",
+    "static/js/2.535f7d06.chunk.js",
+    "static/css/main.82fd5c24.chunk.css",
+    "static/js/main.fea528f8.chunk.js"
+  ]
+}
